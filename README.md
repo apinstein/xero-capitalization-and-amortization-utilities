@@ -1,14 +1,14 @@
 # XERO Amoritization Schedule Importer
 
-## The Problem...
+## The Problem
 
 The proper way to account for a loan in XERO is to have a periodic entry that posts to a Bank account, an interest account, and a liability account.
 
-Since XERO doesn't have a built-in feature to create amortization schedules for loans, this becomes a tedious, error-prone, manual process.
+Unfortunately, XERO doesn't have a built-in feature to create amortization schedules for loans, making it a tedious, error-prone, manual process to properly enter a loan in XERO.
 
-## The Solution...
+## The Solution
 
-There is a way to automate this entire process in under 5 minutes using XERO's Manual Journal import feature.
+Fortunately, XERO allows importing MJ's via CSV. This allows us to automate this entire process with less than 5 minutes of work.
 
 ## Instructions
 
