@@ -18,7 +18,9 @@ Fortunately, XERO allows importing MJ's via CSV. This allows us to automate this
 1. Export the spreadsheet as CSV
     * use the "Create a file for each table" option
     * this will export 4 csv files, you only will use the file titled `XERO MJ ENTRIES-IMPORT AS XERO MJ.csv`
-1. Open the `XERO MJ ENTRIES-IMPORT AS XERO MJ.csv` CSV file and delete blank rows (XERO has 300 row import max)
+1. Open the `XERO MJ ENTRIES-IMPORT AS XERO MJ.csv` CSV file 
+    * delete blank rows (XERO has 300 row import max)
+      * NOTE: as of 8/16/2019 XERO seems to automatically prune empty rows so this step likely isn't needed anymore.
     * NOTE: if your amortization table has more than 300 rows (299 periods), you'll have to do multiple imports with only 300 rows per import, juggle your rows accordingly
 1. Go to XERO > Manual Journals > Import and choose the CSV
     * NOTE: they will be imported as DRAFT MJ's so it's safe and easy to review / delete if they are wrong
