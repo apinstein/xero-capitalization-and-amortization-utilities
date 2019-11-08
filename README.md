@@ -31,8 +31,10 @@ Fortunately, XERO allows importing MJ's via CSV. This allows us to automate this
 
 Enjoy your perfect and easy amortization bookkeeping!
 
-## Future
+## TODO / Future
 
 I could make a Google Spreadsheet or XSLX of this. I tried exporting and importing, but it messed up all the forumlas and I didn't want to spend the time to fix. 
 
-If you don't have a Mac and want me to make a schedule for me, email me and I'll do it for $10.
+If you don't have a Mac and want me to make a schedule for you, email me and I'll do it for $10.
+
+I also intend to provide a similar tool for generation small amortization / capitalization schedules for things like Deferred Revenue, Prepaid Services, etc.
