@@ -31,6 +31,10 @@ Fortunately, XERO allows importing MJ's via CSV. This allows us to automate this
 
 Enjoy your perfect and easy amortization bookkeeping!
 
+## Limitations
+
+Xero assumes all transactions are CASH AND ACCRUAL by default. You can chance this by twiddling the 'show journal on cash basis' checkbox (uncheck to remove from cash basis). For loan amortizations this is actually perfect typically. You can edit each MJ however to accrual-only if you want after importing since there is no way to specify this via import. Vote on this feature here: https://community.xero.com/business/discussion/37725075/
+
 ## TODO / Future
 
 I could make a Google Spreadsheet or XSLX of this. I tried exporting and importing, but it messed up all the forumlas and I didn't want to spend the time to fix. 
