@@ -1,10 +1,10 @@
-# XERO Amoritization Schedule Importer
+# XERO Capitalization and Amoritization Utilities
 
 ## The Problem
 
-The proper way to account for a loan in XERO is to have a periodic entry that posts to a Bank account, an interest account, and a liability account.
+The proper way to account for things like loans, prepaid services, and deferred revenue involves creating a series of entries to properly record the accounting item of interest.
 
-Unfortunately, XERO doesn't have a built-in feature to create amortization schedules for loans, making it a tedious, error-prone, manual process to properly enter a loan in XERO.
+Unfortunately, XERO doesn't have a built-in feature to create amortization or capitalization schedules for these items, making it a tedious, error-prone, manual process to properly record such things in XERO.
 
 ## The Solution
 
@@ -12,24 +12,10 @@ Fortunately, XERO allows importing MJ's via CSV. This allows us to automate this
 
 ## Instructions
 
-1. Open the spreadsheet document
-1. Adjust all variables on the `CONFIG` sheet
-1. Verify Amortization Table looks accurate on `AMORTIZATION` sheet
-1. Export the spreadsheet as CSV
-    * use the "Create a file for each table" option
-    * this will export 4 csv files, you only will use the file titled `XERO MJ ENTRIES-IMPORT AS XERO MJ.csv`
-1. Open the `XERO MJ ENTRIES-IMPORT AS XERO MJ.csv` CSV file 
-    * delete blank rows (XERO has 300 row import max)
-      * NOTE: as of 8/16/2019 XERO seems to automatically prune empty rows so this step likely isn't needed anymore.
-    * NOTE: if your amortization table has more than 300 rows (299 periods), you'll have to do multiple imports with only 300 rows per import, juggle your rows accordingly
-1. Go to XERO > Manual Journals > Import and choose the CSV
-    * NOTE: they will be imported as DRAFT MJ's so it's safe and easy to review / delete if they are wrong
-1. Verify the importer detected the same number of MJ’s as periods in the loan
-1. Complete the import and verify a few sample draft MJ’s
-1. Post MJ’s
-1. When the payments post into your XERO the reconciliation feauture should see it and suggest it as a MATCH.
+1. Open the spreadsheet template corresponding to the specific situation you are dealing with.
+1. Follow the directions on the CONFIG tab.
 
-Enjoy your perfect and easy amortization bookkeeping!
+Enjoy your perfect and easy bookkeeping!
 
 ## Limitations
 
@@ -40,5 +26,3 @@ Xero assumes all transactions are CASH AND ACCRUAL by default. You can chance th
 I could make a Google Spreadsheet or XSLX of this. I tried exporting and importing, but it messed up all the forumlas and I didn't want to spend the time to fix. 
 
 If you don't have a Mac and want me to make a schedule for you, email me and I'll do it for $10.
-
-I also intend to provide a similar tool for generation small amortization / capitalization schedules for things like Deferred Revenue, Prepaid Services, etc.
