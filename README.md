@@ -19,7 +19,8 @@ Enjoy your perfect and easy bookkeeping!
 
 ## Limitations
 
-Xero assumes all transactions are CASH AND ACCRUAL by default. You can chance this by twiddling the 'show journal on cash basis' checkbox (uncheck to remove from cash basis). For loan amortizations this is actually perfect typically. You can edit each MJ however to accrual-only if you want after importing since there is no way to specify this via import. Vote on this feature here: https://community.xero.com/business/discussion/37725075/
+* Xero assumes all transactions are CASH AND ACCRUAL by default. You can chance this by twiddling the 'show journal on cash basis' checkbox (uncheck to remove from cash basis). For loan amortizations this is actually perfect typically. You can edit each MJ however to accrual-only if you want after importing since there is no way to specify this via import. Vote on this feature here: https://community.xero.com/business/discussion/37725075/
+* Xero only imports 2 decimal places of information, and there can be an accumulated rounding error in the schedules. The capitalization schedule includes a correction for this rounding error in the Period 1 MJ entry.
 
 ## TODO / Future
 
